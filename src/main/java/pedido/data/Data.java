@@ -14,4 +14,8 @@ public class Data {
     private int mes;
     private int ano;
 
+    public String consultaData() {
+        return dia +"/"+mes+"/"+ano;
+    }
+
 }

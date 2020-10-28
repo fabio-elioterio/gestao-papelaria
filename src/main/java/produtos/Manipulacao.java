@@ -2,7 +2,7 @@ package produtos;
 
 public interface Manipulacao {
 
-    boolean cadastro();
+    Boolean cadastro();
 
     String consulta();
 }
