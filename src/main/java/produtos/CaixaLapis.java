@@ -4,12 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pedido.Pedido;
-import utils.Utils;
 
 import java.util.Scanner;
 
-import static utils.Utils.*;
+import static utils.Utils.caixaLapis;
 import static utils.Utils.totalValorPedido;
 
 @AllArgsConstructor
@@ -21,7 +19,7 @@ public class CaixaLapis extends Produto implements Manipulacao {
     private Integer quantidade;
     private boolean colorido;
 
-    public  Boolean cadastro() {
+    public Boolean cadastro() {
         Scanner teclado = new Scanner(System.in);
 
         CaixaLapis caixaLapisCadastrada = new CaixaLapis();

@@ -4,12 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pedido.Pedido;
-import utils.Utils;
 
 import java.util.Scanner;
 
-import static utils.Utils.*;
+import static utils.Utils.cadernos;
+import static utils.Utils.totalValorPedido;
 
 @AllArgsConstructor
 @NoArgsConstructor
